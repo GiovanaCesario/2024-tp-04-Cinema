@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5fb71e8-2434-4d94-8170-af8f3436059d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/armazenamento/JDBC/IDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/armazenamento/JDBC/conexao/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/armazenamento/JDBC/conexao/FalhaConexaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/armazenamento/serializacao/Serializacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cinema/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cinema/Cinemark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cinema/Cinepolis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cinema/cinemaDAO/CinemaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cinema/cinemaDAO/CinemaExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cinema/cinemaDAO/CinemaNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/AvaliacaoInvalidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IdExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/NomeDuplicadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/NunhumaSessaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/SalaOcupadaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/SessaoLotadaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filme/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filme/filmeDAO/FilmeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filme/filmeDAO/FilmeExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filme/filmeDAO/FilmeNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sala/Sala.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sala/salaDAO/SalaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sala/salaDAO/SalaExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sala/salaDAO/SalaNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sessao/Sessao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sessao/sessaoDAO/SessaoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sessao/sessaoDAO/SessaoExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sessao/sessaoDAO/SessaoNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venda/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venda/vendaDAO/VendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venda/vendaDAO/VendaExistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venda/vendaDAO/VendaNaoEncontradaException.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5fb71e8-2434-4d94-8170-af8f3436059d" name="Changes" comment="Cinema - Giovana" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +21,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GiovanaCesario/2024-tp-04-Cinema.git",
+    "accountId": "18860587-cc16-42c6-8bb9-03614222adbc"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -93,7 +58,20 @@
       <option name="presentableId" value="Default" />
       <updated>1733834742928</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cinema - Giovana">
+      <option name="closed" value="true" />
+      <created>1733967488239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733967488239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cinema - Giovana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cinema - Giovana" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
